@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Media Service - Real Estate Photography & Videography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gray-800">Upload Media Service</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+                    <a href="#pricing" class="text-gray-600 hover:text-blue-600">Pricing</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-blue-600">Portfolio</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                    <a href="https://uploadit.com.au/bookings/" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Book Now</a>
+                </div>
+                <button class="md:hidden text-gray-600 hover:text-blue-600 focus:outline-none" id="mobile-menu-button">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a href="#home" class="block text-gray-600 hover:text-blue-600">Home</a>
+                    <a href="#services" class="block text-gray-600 hover:text-blue-600">Services</a>
+                    <a href="#pricing" class="block text-gray-600 hover:text-blue-600">Pricing</a>
+                    <a href="#portfolio" class="block text-gray-600 hover:text-blue-600">Portfolio</a>
+                    <a href="#contact" class="block text-gray-600 hover:text-blue-600">Contact</a>
+                    <a href="https://uploadit.com.au/bookings/" class="block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mt-2">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Premium Real Estate Photography & Videography in Sydney</h1>
+                    <p class="text-lg mb-6">Fast 24-48 hour turnaround with instant online booking. Packages starting at $150+GST.</p>
+                    <a href="https://uploadit.com.au/bookings/" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Book Now</a>
+                </div>
+                <div>
+                    <img src="https://uploadit.com.au/luxurylistings/wp-content/uploads/2023/03/Property-Photography-1-1024x683.jpg" alt="Real Estate Photography" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Professional Photos</h3>
+                    <p class="text-gray-600">High-resolution photography for stunning property listings.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">High-Quality Videos</h3>
+                    <p class="text-gray-600">Professional video tours of your properties.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Drone Photography/Videography</h3>
+                    <p class="text-gray-600">Aerial views that showcase properties uniquely.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Detailed Floor Plans</h3>
+                    <p class="text-gray-600">Accurate and professional floor plan designs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Virtual Staging & 3D Services</h3>
+                    <p class="text-gray-600">Bring empty spaces to life digitally.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Reels and Marketing Videos</h3>
+                    <p class="text-gray-600">Engaging content for property promotion.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Property Styling</h3>
+                    <p class="text-gray-600">Enhance your property's appeal with professional styling.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Print and Signboard</h3>
+                    <p class="text-gray-600">Professional printing services for marketing materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Pricing & Packages</h2>
+            <div class="text-center mb-8">
+                <p class="text-xl text-gray-600">Packages starting at $150+GST</p>
+                <p class="text-lg text-blue-600 font-semibold">20% OFF all packages when locked in for 1 year (min. 20 projects)</p>
+            </div>
+            <div class="text-center">
+                <a href="https://uploadit.com.au/luxurylistings/pricing/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">View Full Pricing Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Portfolio</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <a href="https://uploadit.com.au/luxurylistings/" target="_blank">
+                    <img src="https://uploadit.com.au/luxurylistings/wp-content/uploads/2023/03/Property-Photography-1-1024x683.jpg" alt="Property Photography Sample 1" class="rounded-lg shadow-md hover:opacity-80">
+                </a>
+                <a href="https://uploadit.com.au/luxurylistings/" target="_blank">
+                    <img src="https://uploadit.com.au/luxurylistings/wp-content/uploads/2023/03/Property-Photography-2-1024x683.jpg" alt="Property Photography Sample 2" class="rounded-lg shadow-md hover:opacity-80">
+                </a>
+                <a href="https://uploadit.com.au/luxurylistings/" target="_blank">
+                    <img src="https://uploadit.com.au/luxurylistings/wp-content/uploads/2023/03/Property-Video-1024x576.jpg" alt="Property Video Sample" class="rounded-lg shadow-md hover:opacity-80">
+                </a>
+                <!-- Placeholder: Replace with actual image from sample website -->
+                <a href="https://uploadit.com.au/luxurylistings/" target="_blank">
+                    <img src="https://uploadit.com.au/luxurylistings/wp-content/uploads/2023/03/Drone-Photography.jpg" alt="Drone Photography Sample" class="rounded-lg shadow-md hover:opacity-80">
+                </a>
+            </div>
+            <div class="text-center mt-8">
+                <a href="https://uploadit.com.au/luxurylistings/" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">View More Samples</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+                    <p class="mb-2">Upload Media Service</p>
+                    <p class="mb-2">Sydney, Australia</p>
+                    <p class="mb-2">Phone: 1300 557 215</p>
+                    <p class="mb-2">Email: info@uploadit.com.au</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <p class="mb-2"><a href="https://uploadit.com.au/bookings/" class="hover:text-blue-300">Online Booking</a></p>
+                    <p class="mb-2"><a href="https://uploadit.com.au/luxurylistings/pricing/" class="hover:text-blue-300">Pricing</a></p>
+                    <p class="mb-2"><a href="https://uploadit.com.au/luxurylistings/" class="hover:text-blue-300">Portfolio</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>© 2025 Upload Media Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
